@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="heading">新規登録</h1>
+      <div id="message" class="text-red-700 mb-4"></div>
+
+      <div class="form-field">
+        <input
+          type="email"
+          id="signup-email"
+          placeholder="Email"
+          class="input w-full input-bordered"
+        />
+      </div>
+      <div class="form-field">
+        <input
+          type="password"
+          id="signup-password"
+          placeholder="Password"
+          class="input w-full input-bordered"
+        />
+        <p class="explanation">
+          <ul>
+            <li class="explanation">8文字以上20文字以内で入力してください。</li>
+            <li class="explanation">半角英字と半角数字を含めてください。</li>
+            <li class="explanation">次の記号も任意で使用可能です。</li>
+            <li class="explanation">!"#$%&'()*+,-./<=>?@{}|~</li>
+          </ul>
+        </p>
+      </div>
+      <div class="text-center button-field">
+        <button id="signup-button" class="btn btn-primary btn-wide">
+          サインアップ
+        </button>
+        <br></br>
+        <button id="home" class="btn btn-primary btn-wide">ホームに戻る</button>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
