@@ -1,0 +1,87 @@
+body{
+    background-color: gainsboro;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#output{
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: skyblue;
+    padding: 10px;
+    height: 500px;
+    overflow-y: auto;
+    justify-content: center;
+} 
+
+h1{
+    color: coral;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    vertical-align:top;
+    width: 100%;
+    height: 100px;
+}
+
+button {
+    width: 100%;
+}
+
+
+
+/* .message { */
+    /* border-bottom: 1px solid #FFF;
+    padding: 5px;
+    margin-bottom: 5px;
+} */ 
+
+.remove{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.update{
+    width: 30px;
+    margin-left: 5px;
+}
+.message{
+    max-width: 100%;
+    border-radius: 20px;
+    background: #5AC323;
+    justify-content: center;
+}
+
+.heading{
+    color: coral;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.explanation{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: black;
+}
+
+#userNameDisplay{
+    font-size: 25px;
+    font-weight: bolder;
+    color: blue;
+    font-family: sans-serif;
+}
